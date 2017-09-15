@@ -1,0 +1,38 @@
+{
+  "name": "auth0-support-api",
+  "version": "1.0.0",
+  "description": "Auth0 Customer Support Portal API",
+  "main": "init.js",
+  "scripts": {
+    "test": "test",
+    "start": "node init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/degrammer/auth0-support-api.git"
+  },
+  "keywords": [
+    "Auth0",
+    "Hapi",
+    "Zendesk",
+    "API"
+  ],
+  "author": "Ruben Restrepo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/degrammer/auth0-support-api/issues"
+  },
+  "homepage": "https://github.com/degrammer/auth0-support-api#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "hapi": "^16.5.2",
+    "hapi-spa": "^0.2.0",
+    "inert": "^4.2.1",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.11",
+    "node-zendesk": "^1.1.12",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "zendesk-node-api": "^1.2.0"
+  }
+}
